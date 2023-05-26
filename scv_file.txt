@@ -1,0 +1,6 @@
+1,Ivan,25,Programmer
+2,Petr,30,Manager
+3,Serger,28,Tester
+4,Sidor,55,Director
+5,Boris,22,QA
+6,Andrey,Analyst
