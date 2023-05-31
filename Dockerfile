@@ -5,12 +5,12 @@ FROM ubuntu:latest
 RUN apt update && apt install openssh-server sudo -y
 
 ##########################################################
-# Create a group “dmdev”
-RUN groupadd dmdev
+# Create a group “customgroup”
+RUN groupadd customgroup
 
 ##########################################################
 # Create a user “ivan”
-RUN useradd -d /home/ivan -m -s /bin/bash -g dmdev ivan
+RUN useradd -d /home/ivan -m -s /bin/bash -g customgroup ivan
 # Set default password 123 for user ivan
 RUN echo "123\n123" | passwd ivan
 
